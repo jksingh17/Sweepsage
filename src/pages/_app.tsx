@@ -19,7 +19,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
   return (
     <div>
-      <Navbar sectionRefs={sectionRefs} />
+     <Navbar sectionRefs={sectionRefs} />
       <Component {...pageProps} />
       <Faq/>
       <br /><br />

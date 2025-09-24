@@ -186,7 +186,6 @@ const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
                     'Social Media Management',
                     'Video Editing',
                     'Graphic Design',
-                    'Gaming ID vendors',
                     'Web Development',
                     'App Development',
                   ].map((service) => (
@@ -202,7 +201,7 @@ const Navbar: React.FC<NavbarProps> = ({ sectionRefs }) => {
                 </ul>
               )}
             </li>
-            {[ 'WhyUs?', 'Reviews', 'AboutUs', 'FAQs', 'Footer'].map((menu) => (
+            {[ 'WhyUs?', 'AboutUs', 'FAQs', 'Footer'].map((menu) => (
               <li key={menu}>
                 <a
                   onClick={() => scrollToSection(menu.replace('?', ''))}

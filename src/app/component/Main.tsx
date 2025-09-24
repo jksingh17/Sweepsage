@@ -8,7 +8,7 @@ const Main: React.FC = () => {
   <section className="relative bg-gradient-to-br from-blue-900 to-indigo-800 text-white overflow-hidden">
     <div className="absolute inset-0 bg-white opacity-50"></div>
     <div
-      className={`absolute inset-0 bg-cover bg-center mt-20 pt-20`}
+      className={`absolute inset-0 bg-cover bg-center mt-20 md:mt-2 pt-20`}
       style={{
         backgroundImage: `url('bgt.png')`,
         filter: 'blur(0px)',
